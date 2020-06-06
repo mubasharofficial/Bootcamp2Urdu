@@ -31,8 +31,9 @@ jobs:
     - name: creating build
       run:  yarn build  
     - name: instaling surge.sh
-      uses: npm install -g  surge
+      uses: yarn build
     - name: deploying  Surge ap
       run:  surge./build  https://mubibootcamp2urdu.surge.sh/ --token ${{secrets.SURGE_TOKEN}}
+      
       
     
