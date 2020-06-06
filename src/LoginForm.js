@@ -6,8 +6,8 @@ function App() {
   return (
     <div className="App">
                 
-           my first app Muashar urud
-           
+           my first app Muashar Urdu
+
   
     </div>
   );
