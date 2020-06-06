@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
                 
-           my first app Muashar Urdu
+           my first app Muashar 
 
   
     </div>
